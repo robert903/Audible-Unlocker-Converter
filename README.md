@@ -25,8 +25,16 @@ Download Google Chrome from https://www.google.com/chrome/ and install it on you
 
 - RUN --- ---        ./ffmpeg -y -activation_bytes ACTIVATION_BYTES -i audiobook.aax -c:a copy -vn audiobook.m4a
 
+##Anti-Piracy Notice
+
+Note that this project does NOT 'crack' the DRM. It simplys allows the user to use their own encryption key (fetched from Audible servers) to decrypt the audiobook in the same manner that the official audiobook playing software does.
+
+Please only use this application for gaining full access to your own audiobooks for archiving/converson/convenience. DeDRMed audiobooks should not be uploaded to open servers, torrents, or other methods of mass distribution. No help will be given to people doing such things. Authors, retailers, and publishers all need to make a living, so that they can continue to produce audiobooks for us to hear, and enjoy. Don’t be a parasite.
+
+This blurb is borrowed from the https://apprenticealf.wordpress.com/ page.
 
 
-Not My Code.
+
+# Not My Code.
 
 [inAudible-NG](https://github.com/inAudible-NG/audible-activator) #For audible activator
