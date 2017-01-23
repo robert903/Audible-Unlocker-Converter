@@ -6,14 +6,22 @@
 
 Python 2 is required along with Selenium, Requests, ChromeDriver, and Google Chrome.
 
-'''
-pip install requests  # use "easy_install" if pip is missing
 
-pip install selenium
-'''
+- pip install requests  # use "easy_install" if pip is missing
+- pip install selenium
 
-Download and extract the correct ChromeDriver zip file from here to this folder.
+
+Download and extract the correct ChromeDriver zip file from [Here](https://sites.google.com/a/chromium.org/chromedriver/downloads) to this folder.
 
 Download Google Chrome from https://www.google.com/chrome/ and install it on your computer.
 
-Ryan reports that the 32-bit Mac ChromeDriver works fine under a 64-bit Mac environment.
+#usage 
+
+- python audible-activator.py --debug #this starts in debug mode so you can manually enter your email and password to pass robot check
+
+- COPY RESULTING ACTIVATION BYTES FROM CONSOLE
+
+- Goto audible library. change to ENHANCED and download aax.
+
+- RUN         ffmpeg -y -activation_bytes ACTIVATION_BYTES -i audiobook.aax -c:a copy -vn audiobook.m4a
+
