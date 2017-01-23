@@ -23,5 +23,5 @@ Download Google Chrome from https://www.google.com/chrome/ and install it on you
 
 - Goto audible library. change to ENHANCED and download aax.
 
-- RUN         ffmpeg -y -activation_bytes ACTIVATION_BYTES -i audiobook.aax -c:a copy -vn audiobook.m4a
+- RUN --- ---        ./ffmpeg -y -activation_bytes ACTIVATION_BYTES -i audiobook.aax -c:a copy -vn audiobook.m4a
 
