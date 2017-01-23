@@ -25,3 +25,8 @@ Download Google Chrome from https://www.google.com/chrome/ and install it on you
 
 - RUN --- ---        ./ffmpeg -y -activation_bytes ACTIVATION_BYTES -i audiobook.aax -c:a copy -vn audiobook.m4a
 
+
+
+Not My Code.
+
+[inAudible-NG](https://github.com/inAudible-NG/audible-activator) #For audible activator
